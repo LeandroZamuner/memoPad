@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/memoPad/static/css/main.4483314f.chunk.css",
-    "main.js": "/memoPad/static/js/main.a3191eeb.chunk.js",
-    "main.js.map": "/memoPad/static/js/main.a3191eeb.chunk.js.map",
+    "main.css": "/memoPad/static/css/main.74c7939c.chunk.css",
+    "main.js": "/memoPad/static/js/main.09d8ef10.chunk.js",
+    "main.js.map": "/memoPad/static/js/main.09d8ef10.chunk.js.map",
     "runtime-main.js": "/memoPad/static/js/runtime-main.58e649ca.js",
     "runtime-main.js.map": "/memoPad/static/js/runtime-main.58e649ca.js.map",
     "static/js/2.759f77e9.chunk.js": "/memoPad/static/js/2.759f77e9.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.0a7bb6f1.chunk.js": "/memoPad/static/js/3.0a7bb6f1.chunk.js",
     "static/js/3.0a7bb6f1.chunk.js.map": "/memoPad/static/js/3.0a7bb6f1.chunk.js.map",
     "index.html": "/memoPad/index.html",
-    "static/css/main.4483314f.chunk.css.map": "/memoPad/static/css/main.4483314f.chunk.css.map",
+    "static/css/main.74c7939c.chunk.css.map": "/memoPad/static/css/main.74c7939c.chunk.css.map",
     "static/js/2.759f77e9.chunk.js.LICENSE.txt": "/memoPad/static/js/2.759f77e9.chunk.js.LICENSE.txt",
     "static/media/TodoSearch.css": "/memoPad/static/media/search-icon.6c95e853.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.58e649ca.js",
     "static/js/2.759f77e9.chunk.js",
-    "static/css/main.4483314f.chunk.css",
-    "static/js/main.a3191eeb.chunk.js"
+    "static/css/main.74c7939c.chunk.css",
+    "static/js/main.09d8ef10.chunk.js"
   ]
 }
