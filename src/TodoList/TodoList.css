@@ -1,5 +1,20 @@
 ul {
-    margin: 0;
-    padding: 0 0 56px 0;
-    list-style: none;
+  padding: 0 0 56px 0;
+  margin: auto;
+  list-style: none;
 }
+
+@media (min-width: 768px) {
+  ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 0 56px 0;
+    margin: auto;
+    width: 80%;
+    list-style: none;
+  }
+}
+
+/*  list-container__item*/
+/* Buena practica para nombramiento de clases.
+BEM, buscar en google */
