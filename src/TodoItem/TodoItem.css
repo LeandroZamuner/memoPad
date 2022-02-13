@@ -1,13 +1,16 @@
-.TodoItem {
-    background-color: #FAFAFA;
-    position: relative;
+@media (max-width: 768px) {
+  .TodoItem {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 24px;
-    box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15);
+    width: 80%;
+    padding: 15px;
+    margin: 10px auto;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgb(32 35 41 / 15%);
   }
-  
+
   .TodoItem-p {
     margin: 24px 0 24px 24px;
     width: calc(100% - 120px);
@@ -18,33 +21,44 @@
   .TodoItem-p--complete {
     text-decoration: line-through;
   }
-  
+
   .Icon {
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 48px;
-    width: 48px;
+    height: 35px;
+    width: 35px;
     font-size: 24px;
     font-weight: bold;
     /* background-color: #CCC; */
   }
-  
+  .container {
+    display: flex;
+    margin-top: 15px;
+  }
+
   .Icon-check {
-    position: absolute;
-    left: 12px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-right: 10px;
   }
+
   .Icon-check--active {
-    color: #4caf50;
+    background-color: #06ff00;
   }
-  
+  .Icon-check:hover {
+    background-color: #1ccf18ec;
+  }
+
   .Icon-delete {
-    position: absolute;
-    top: -24px;
-    right: 0;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-right: 10px;
   }
+
   .Icon-delete:hover {
-    color: red;
+    background-color: #ff1700;
+    border-radius: 50%;
   }
-  
+}
